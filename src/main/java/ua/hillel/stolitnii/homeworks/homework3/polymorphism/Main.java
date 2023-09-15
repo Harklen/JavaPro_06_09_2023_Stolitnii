@@ -70,6 +70,7 @@ public class Main {
         TotalAreaCalculator calculator = new AreaCalculator();
         double totalArea = calculator.calculateTotalArea(figures);
 
+
         System.out.println("Сумарна площа всіх фігур: " + totalArea);
     }
 }
