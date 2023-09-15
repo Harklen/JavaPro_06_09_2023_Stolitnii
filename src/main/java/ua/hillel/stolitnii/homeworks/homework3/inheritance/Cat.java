@@ -26,3 +26,4 @@ class Cat extends Animal {
         System.out.println("Кіт не вміє плавати.");
     }
 }
+//кіт

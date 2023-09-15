@@ -31,3 +31,4 @@ class Dog extends Animal {
         }
     }
 }
+//пес

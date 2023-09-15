@@ -19,3 +19,5 @@ class Animal {
         System.out.println("Тварина пропливла " + distance + " м.");
     }
 }
+
+//загальний

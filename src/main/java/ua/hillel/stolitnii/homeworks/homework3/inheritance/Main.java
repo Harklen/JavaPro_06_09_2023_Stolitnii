@@ -11,13 +11,11 @@ public class Main {
 
         cat1.run(150);
         cat1.swim(5);
-
         cat2.run(190);
         cat2.swim(0);
 
         dog1.run(300);
         dog1.swim(8);
-
         dog2.run(180);
         dog2.swim(10);
 
