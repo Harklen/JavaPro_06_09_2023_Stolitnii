@@ -44,9 +44,11 @@ public class HomeWorkApp {
         boolean result = sum >= 10 && sum <= 20;
         return result;
     }
+
     public static void isPositiveOrNegative(int a) {
         System.out.println(a >= 0 ? "Додатнє" : "Від'ємне");
     }
+
     public static boolean isNumberInteger(double a) {
         boolean result = a % 1 == 0;
         return result;
@@ -57,7 +59,8 @@ public class HomeWorkApp {
             System.out.println(str);
         }
     }
-    public static boolean isLeapYear(int year){
+
+    public static boolean isLeapYear(int year) {
         boolean result = year % 4 == 0 && year % 100 != 0 || year % 400 == 0;
         return result;
     }
