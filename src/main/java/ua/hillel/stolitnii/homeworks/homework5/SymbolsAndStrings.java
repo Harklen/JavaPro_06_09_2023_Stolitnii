@@ -1,7 +1,7 @@
 package ua.hillel.stolitnii.homeworks.homework5;
 
 import java.util.Scanner;
-
+//сорі за класи, але мені так зручніше)
 public class SymbolsAndStrings {
     public static void main(String[] args) {
         System.out.println("Завдання 1. Підрахунок кількості символів у стрічці.");
