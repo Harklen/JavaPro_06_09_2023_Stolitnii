@@ -1,5 +1,5 @@
 package ua.hillel.stolitnii.trainings.someshitagain;
-
+//Робимо інтерфейс в якому лежать всі види сиру
 interface Сheese {
     default void chedder() {
         System.out.println("Chedder");
@@ -15,6 +15,7 @@ interface Сheese {
         System.out.println("Dorblue");
     }
 }
+//робимо абстрактне понятт піца
 abstract class Pizza {
     abstract void filling();
     abstract void sauce();
@@ -22,6 +23,7 @@ abstract class Pizza {
     abstract void dough();
     abstract void bake();
 }
+//імплементуємо дефолтне виконання піци
 class BlankPizza extends Pizza {
 
     @Override
@@ -45,6 +47,7 @@ class BlankPizza extends Pizza {
         System.out.println("В духовці");
     }
 }
+//робимо піцу з 4 сирів на основі дефолтого виконання і інтерфейсу
 class FourCheeses extends BlankPizza implements Сheese {
     @Override
     void cheese(){
@@ -59,10 +62,9 @@ class Margarita extends BlankPizza {
     void filling(){
         System.out.println("Салямі");
     }
-    @Override
-    void cheese() {
-    }
 }
+
+//паралельно використовуємо сир в пасті
 class Pasta implements Сheese {
     void pasta(){
         System.out.println("Паста");
