@@ -7,7 +7,7 @@ public class SymbolsAndStrings {
         System.out.println("Завдання 1. Підрахунок кількості символів у стрічці.");
         System.out.println(findSymbolOccurance.findSymbolOccurance("Hello world!", 'l'));
         System.out.println("Завдання 2. Пошук позиції слова у стрічці.");
-        System.out.println(findWordPosition.findWordPosition("Apple", "plant"));
+        System.out.println(findWordPosition.findWordPosition("Apple", "ple"));
         System.out.println("Завдання 3. Реверс стрічки.");
         System.out.println(stringReverse.stringReverse("Hello world!"));
         System.out.println("Завдання 4. Перевірка на поліндром.");
@@ -29,13 +29,7 @@ class findSymbolOccurance {
 
 class findWordPosition {
     public static int findWordPosition(String source, String target) {
-        int result;
-        if (source.contains(target)) {
-            result = 1;
-        } else {
-            result = -1;
-        }
-        return result;
+        return source.indexOf(target);
     }
 }
 
