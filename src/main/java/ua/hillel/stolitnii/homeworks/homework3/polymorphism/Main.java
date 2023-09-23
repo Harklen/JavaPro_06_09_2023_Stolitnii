@@ -6,7 +6,7 @@ interface GeometricFigure {
     double getArea();
 }
 class Circle implements GeometricFigure {
-    private double radius;
+    private final double radius;
 
     public Circle(double radius) {
         this.radius = radius;
@@ -19,8 +19,8 @@ class Circle implements GeometricFigure {
 }
 
 class Triangle implements GeometricFigure {
-    private double base;
-    private double height;
+    private final double base;
+    private final double height;
 
     public Triangle(double base, double height) {
         this.base = base;
@@ -34,7 +34,7 @@ class Triangle implements GeometricFigure {
 }
 
 class Square implements GeometricFigure {
-    private double side;
+    private final double side;
 
     public Square(double side) {
         this.side = side;
