@@ -1,8 +1,8 @@
-package ua.hillel.stolitnii.homeworks.homework7;
+package ua.hillel.stolitnii.homeworks.homework9;
 import java.awt.*;
 import java.awt.event.*;
 import javax.swing.*;
-import static ua.hillel.stolitnii.homeworks.homework7.LoggerTestClass.*;
+import static ua.hillel.stolitnii.homeworks.homework9.LoggerTestClass.*;
 import java.io.*;
 import java.util.Scanner;
 

@@ -1,4 +1,4 @@
-package ua.hillel.stolitnii.homeworks.homework5;
+package ua.hillel.stolitnii.homeworks.homework6;
 
 import java.util.Scanner;
 //сорі за класи, але мені так зручніше)

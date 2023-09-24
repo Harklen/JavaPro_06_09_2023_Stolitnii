@@ -1,4 +1,4 @@
-package ua.hillel.stolitnii.homeworks.homework3.polymorphism;
+package ua.hillel.stolitnii.homeworks.homework8;
 
 import org.jetbrains.annotations.NotNull;
 

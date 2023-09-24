@@ -1,4 +1,4 @@
-package ua.hillel.stolitnii.homeworks.homework4;
+package ua.hillel.stolitnii.homeworks.homework5;
 
 public class HomeWorkApp {
     public static void main(String[] args) {

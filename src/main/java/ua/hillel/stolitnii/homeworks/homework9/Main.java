@@ -1,7 +1,7 @@
-package ua.hillel.stolitnii.homeworks.homework7;
+package ua.hillel.stolitnii.homeworks.homework9;
 import java.util.InputMismatchException;
 import java.util.Scanner;
-import static ua.hillel.stolitnii.homeworks.homework7.LoggerTestClass.*;
+import static ua.hillel.stolitnii.homeworks.homework9.LoggerTestClass.*;
 
 public class Main {
 

@@ -1,6 +1,5 @@
-package ua.hillel.stolitnii.homeworks.homework7;
+package ua.hillel.stolitnii.homeworks.homework9;
 import java.io.*;
-import java.util.logging.*;
 
 public class LoggerTestClass {
 

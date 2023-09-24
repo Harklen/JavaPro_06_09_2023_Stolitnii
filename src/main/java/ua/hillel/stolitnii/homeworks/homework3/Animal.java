@@ -1,4 +1,4 @@
-package ua.hillel.stolitnii.homeworks.homework3.inheritance;
+package ua.hillel.stolitnii.homeworks.homework3;
 
 class Animal {
     private static int animalCount = 0;

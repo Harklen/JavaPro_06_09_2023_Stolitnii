@@ -1,5 +1,5 @@
-package ua.hillel.stolitnii.homeworks.homework3.inheritance;
-import ua.hillel.stolitnii.homeworks.homework3.inheritance.Animal;
+package ua.hillel.stolitnii.homeworks.homework3;
+
 class Cat extends Animal {
     private static int catCount = 0;
     private static final int maxRunDistance = 200;

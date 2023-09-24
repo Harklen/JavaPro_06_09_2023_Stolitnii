@@ -1,6 +1,4 @@
-package ua.hillel.stolitnii.homeworks.homework3.inheritance;
-import ua.hillel.stolitnii.homeworks.homework3.inheritance.Cat;
-import ua.hillel.stolitnii.homeworks.homework3.inheritance.Dog;
+package ua.hillel.stolitnii.homeworks.homework3;
 
 public class Main {
     public static void main(String[] args) {

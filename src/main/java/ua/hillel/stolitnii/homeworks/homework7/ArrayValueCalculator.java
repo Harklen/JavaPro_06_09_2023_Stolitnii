@@ -1,4 +1,4 @@
-package ua.hillel.stolitnii.homeworks.homework6;
+package ua.hillel.stolitnii.homeworks.homework7;
 
 class ArraySizeException extends Exception {
     public ArraySizeException(String message) {
